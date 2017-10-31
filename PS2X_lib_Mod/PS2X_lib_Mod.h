@@ -77,8 +77,8 @@ GNU General Public License for more details.
 //#define PS2X_DEBUG
 //#define PS2X_COM_DEBUG
 
-#ifndef PS2X_lib_h
-  #define PS2X_lib_h
+#ifndef PS2X_lib_Mod_h
+  #define PS2X_lib_Mod_h
 
 #if ARDUINO > 22
   #include "Arduino.h"

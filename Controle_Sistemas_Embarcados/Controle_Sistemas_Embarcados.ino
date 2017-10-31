@@ -1,6 +1,5 @@
-#include <PS2X_lib.h>
+#include <PS2X_lib_Mod.h>
 
-#include <PS2X_lib.h>  //for v1.6
 
 /******************************************************************
  * set pins connected to PS2 controller:
@@ -118,7 +117,7 @@ void loop() {
     }   
 
     
-    switch(getLastButton()){
+    switch(ps2x.getLastButton()){
       case PSB_L3:
         Serial.println("e nois caraio!!");
       break;
